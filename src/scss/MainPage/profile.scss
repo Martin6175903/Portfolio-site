@@ -1,0 +1,43 @@
+.profile {
+  margin-bottom: 60px;
+  &__text {
+    color: $text-color;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: justify;
+    margin: 20px 0 40px;
+  }
+  &__box {
+    &-text {
+      padding-left: 50px;
+      margin-bottom: 20px;
+      font-size: 25px;
+      line-height: 36px;
+      color: $text-color;
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 7px;
+        background-repeat: no-repeat;
+      }
+    }
+    &-text:nth-child(1):before {
+      background-image: url("../../img/mainPage/Profile/phone.svg");
+      width: 25px;
+      height: 27px;
+    }
+    &-text:nth-child(2):before {
+      background-image: url("../../img/mainPage/Profile/email.svg");
+      width: 29px;
+      height: 23px;
+    }
+    &-text:nth-child(3):before {
+      background-image: url("../../img/mainPage/Profile/place.svg");
+      width: 20px;
+      height: 32px;
+      top: 15px;
+    }
+  }
+}

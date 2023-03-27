@@ -1,0 +1,5 @@
+node_modules
+gulpfile.js/index.js
+gulpfile.js/config
+package-lock.json
+infoPlugins.txt

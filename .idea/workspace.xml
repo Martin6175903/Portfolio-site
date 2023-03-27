@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7038987-fb6e-436c-8100-327e4203a685" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KVqXPTYyfgGwyBg7WqAWvLK8pP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Portfolio/src/img/mainPage/header&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Portfolio\src\img\mainPage\header" />
+      <recent name="C:\Users\marti\OneDrive\Рабочий стол\mozi\src\scss\block" />
+      <recent name="D:\innoma\task" />
+      <recent name="D:\innoma\src\scss" />
+      <recent name="D:\innoma\src\html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\innoma\dir" />
+      <recent name="D:\innoma\src\css\block" />
+      <recent name="D:\innoma\src\html" />
+      <recent name="D:\innoma\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7038987-fb6e-436c-8100-327e4203a685" name="Changes" comment="" />
+      <created>1674070139386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674070139386</updated>
+      <workItem from="1674070140809" duration="136000" />
+      <workItem from="1674070291741" duration="1801000" />
+      <workItem from="1674076960914" duration="10633000" />
+      <workItem from="1674126428616" duration="13288000" />
+      <workItem from="1674162169273" duration="8489000" />
+      <workItem from="1674218444086" duration="6897000" />
+      <workItem from="1674320132100" duration="3642000" />
+      <workItem from="1674334148382" duration="1053000" />
+      <workItem from="1674400045519" duration="1169000" />
+      <workItem from="1676732127273" duration="276000" />
+      <workItem from="1676732491579" duration="1589000" />
+      <workItem from="1676753098263" duration="391000" />
+      <workItem from="1676813475977" duration="4536000" />
+      <workItem from="1679659497564" duration="841000" />
+      <workItem from="1679742930827" duration="2914000" />
+      <workItem from="1679776726389" duration="82000" />
+      <workItem from="1679836282908" duration="3137000" />
+      <workItem from="1679847385418" duration="39000" />
+      <workItem from="1679847438674" duration="5919000" />
+      <workItem from="1679857734433" duration="8187000" />
+      <workItem from="1679872645837" duration="1466000" />
+      <workItem from="1679906161780" duration="3032000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
