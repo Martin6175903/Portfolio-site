@@ -41,7 +41,7 @@
       padding-left: 25px;
       display: flex;
       flex-wrap: wrap;
-      width: 80%;
+      width: 90%;
     }
     &__item-box__link {
       flex-basis: 40%;
@@ -52,6 +52,10 @@
       font-size: 30px;
       line-height: 36px;
       text-decoration: none;
+      margin-right: 40px;
+      &:hover {
+        text-decoration: underline;
+      }
       &:before {
         position: absolute;
         left: 0;

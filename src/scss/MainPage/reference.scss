@@ -1,22 +1,72 @@
 .reference {
-  margin-top: 45px;
+  margin-bottom: 70px;
   &__title {
     text-transform: none;
   }
   &__box {
-    margin-top: 20px;
+    margin-top: 45px;
+    margin-left: 40px;
+    display: flex;
+    &-title {
+      width: 100%;
+      max-width: 210px;
+    }
     &-link {
-      display: block;
-      width: 30%;
       text-decoration: none;
-      font-weight: 300;
       font-size: 30px;
       line-height: 36px;
-      color: $title-color;
-      margin-bottom: 15px;
+      color: #333333;
+      font-family: $font-poppins;
+      font-weight: 700;
       &:hover {
         text-decoration: underline;
       }
     }
+    &-subtitle {
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 700;
+      color: $title-color;
+    }
+    &-text {
+      margin-top: 15px;
+      font-size: 24px;
+      line-height: 40px;
+      color: #666666;
+      margin-bottom: 15px;
+    }
+    &-btn {
+      border: 2px solid $title-color;
+      background-color: transparent;
+      padding: 14px 32px 14px 60px;
+      cursor: pointer;
+      font-family: $font-poppins;
+      font-weight: 600;
+      color: $title-color;
+      border-radius: 8px;
+      position: relative;
+      transition: all .3s;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+        background-image: url("../../img/mainPage/reference/arrow-right.png");
+      }
+      &:hover {
+        background-color: $title-color;
+        color: #fff;
+      }
+      &:hover:before {
+        background-image: url("../../img/mainPage/reference/arrow-right-gray.png");
+      }
+    }
+  }
+  &__inner {
+    margin-left: 50px;
   }
 }
+
