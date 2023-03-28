@@ -10,9 +10,9 @@
   &__box {
     display: flex;
   }
-  &__inner {
-    margin-left: 50px;
-  }
 }
 
 @import "MainPage/aside.scss";
+@import "MainPage/reference.scss";
+@import "MainPage/skills.scss";
+@import "MainPage/hobbies.scss";

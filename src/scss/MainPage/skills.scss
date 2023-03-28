@@ -1,0 +1,77 @@
+.skills {
+  margin-bottom: 70px;
+  &__items {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-right: 50px;
+    margin-left: 50px;
+    &-title {
+      font-family: $font-poppins;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 31px;
+    }
+    &-strip {
+      background-color: #c4c4c4;
+      width: 210px;
+      height: 10px;
+      border-radius: 8px;
+      position: relative;
+      &:before {
+        position: absolute;
+        content: '';
+        background-color: $title-color;
+        height: 10px;
+        border-radius: 8px;
+        top: 0;
+        left: 0;
+      }
+    }
+    &:nth-child(1) .skills__item-strip:before {
+      width: 90%;
+    }
+    &:nth-child(2) .skills__item-strip:before {
+      width: 80%;
+    }
+    &:nth-child(3) .skills__item-strip:before {
+      width: 75%;
+    }
+    &:nth-child(4) .skills__item-strip:before {
+      width: 45%;
+    }
+    &:nth-child(5) .skills__item-strip:before {
+      width: 70%;
+    }
+    &:nth-child(6) .skills__item-strip:before {
+      width: 95%;
+    }
+    &:nth-child(7) .skills__item-strip:before {
+      width: 60%;
+    }
+    &:nth-child(8) .skills__item-strip:before {
+      width: 80%;
+    }
+    &:nth-child(9) .skills__item-strip:before {
+      width: 75%;
+    }
+    &:nth-child(10) .skills__item-strip:before {
+      width: 45%;
+    }
+    &:nth-child(11) .skills__item-strip:before {
+      width: 60%;
+    }
+    &:nth-child(12) .skills__item-strip:before {
+      width: 50%;
+    }
+  }
+}

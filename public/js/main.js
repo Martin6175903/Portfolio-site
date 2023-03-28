@@ -15,7 +15,7 @@
   \************************/
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
-eval("const sum = __webpack_require__(/*! ./module/sum.js */ \"./src/js/module/sum.js\")\r\nconsole.log(sum(2, 10));\r\n\r\n\r\nconsole.log(document.body.children)\n\n//# sourceURL=webpack://innoma/./src/js/main.js?");
+eval("const sum = __webpack_require__(/*! ./module/sum.js */ \"./src/js/module/sum.js\")\r\nconsole.log(sum(2, 10));\n\n//# sourceURL=webpack://innoma/./src/js/main.js?");
 
 /***/ }),
 

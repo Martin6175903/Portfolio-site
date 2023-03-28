@@ -6,6 +6,9 @@
       justify-content: space-between;
       width: 100%;
     }
+    &__item-img {
+      border-radius: 10px;
+    }
     &__item:first-child {
       flex-basis: 30%;
     }

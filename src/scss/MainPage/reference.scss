@@ -1,4 +1,5 @@
 .reference {
+  margin-left: 50px;
   margin-bottom: 70px;
   &__title {
     text-transform: none;
@@ -36,6 +37,8 @@
       margin-bottom: 15px;
     }
     &-btn {
+      text-decoration: none;
+      display: inline-block;
       border: 2px solid $title-color;
       background-color: transparent;
       padding: 14px 32px 14px 60px;
