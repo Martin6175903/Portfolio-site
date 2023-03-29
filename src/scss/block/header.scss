@@ -5,6 +5,9 @@
       display: flex;
       justify-content: space-between;
       width: 100%;
+      @media (max-width: $breakpoint600) {
+        display: block;
+      }
     }
     &__item-img {
       border-radius: 10px;
@@ -14,6 +17,10 @@
     }
     &__item:last-child {
       flex-basis: 60%;
+      @media (max-width: $breakpoint600) {
+        text-align: center;
+        margin-top: 20px;
+      }
     }
     &__item-box:last-child {
       margin-top: 40px;
@@ -27,6 +34,18 @@
       font-weight: 900;
       color: $title-color;
       margin-bottom: 19px;
+      @media (max-width: $breakpoint1100) {
+        font-size: 35px;
+        line-height: 43px;
+      }
+      @media (max-width: $breakpoint992) {
+        font-size: 28px;
+        line-height: 35px;
+      }
+      @media (max-width: $breakpoint480) {
+        font-size: 24px;
+        line-height: 28px;
+      }
       &--two {
         font-weight: 300;
         color: #A9A9A9;
@@ -36,15 +55,43 @@
       font-size: 30px;
       line-height: 36px;
       color: $title-color;
+      @media (max-width: $breakpoint992) {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      @media (max-width: $breakpoint480) {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+    &__item:first-child picture {
+      @media (max-width: $breakpoint600) {
+        display: flex;
+        justify-content: center;
+      }
     }
     &__item:first-child img {
       width: 100%;
+      @media (max-width: $breakpoint768) {
+        width: 120%;
+      }
+      @media (max-width: $breakpoint600) {
+        width: 50%;
+      }
     }
     &__item-box__links {
       padding-left: 25px;
       display: flex;
       flex-wrap: wrap;
       width: 90%;
+      @media (max-width: $breakpoint992) {
+        width: 100%;
+        display: block;
+      }
+      @media (max-width: $breakpoint600) {
+        text-align: center;
+        padding-left: 0;
+      }
     }
     &__item-box__link {
       flex-basis: 40%;
@@ -56,6 +103,13 @@
       line-height: 36px;
       text-decoration: none;
       margin-right: 40px;
+      @media (max-width: $breakpoint992) {
+        width: 100%;
+        display: block;
+      }
+      @media (max-width: $breakpoint600) {
+        padding-left: 0;
+      }
       &:hover {
         text-decoration: underline;
       }
@@ -66,6 +120,9 @@
         content: '';
         width: 24px;
         height: 24px;
+        @media (max-width: $breakpoint600) {
+          display: none;
+        }
       }
       &:nth-child(1):before {
         background-image: url("../../img/mainPage/header/vk.png");

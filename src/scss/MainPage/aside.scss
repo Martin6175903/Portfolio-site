@@ -1,5 +1,8 @@
 .aside {
   max-width: 380px;
+  @media (max-width: $breakpoint768) {
+    max-width: none;
+  }
 }
 
 @import "profile.scss";

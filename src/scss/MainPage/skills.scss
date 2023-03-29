@@ -6,27 +6,59 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    @media (max-width: $breakpoint600) {
+      display: block;
+    }
   }
   &__item {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    width: 35%;
-    margin-right: 50px;
-    margin-left: 50px;
+    flex-basis: 45%;
+    @media (max-width: $breakpoint1100) {
+      display: block;
+      flex-basis: 50%;
+    }
+    &:nth-child(odd) {
+      margin-right: 100px;
+      @media (max-width: $breakpoint1100) {
+        margin-right: 0;
+      }
+    }
     &-title {
       font-family: $font-poppins;
       font-weight: 500;
       font-size: 25px;
       line-height: 31px;
+      @media (max-width: $breakpoint1100) {
+        text-align: center;
+        margin-bottom: 15px;
+      }
     }
     &-strip {
+      margin-left: auto;
+    }
+    &-strip span {
       background-color: #c4c4c4;
-      width: 210px;
+      width: 260px;
       height: 10px;
       border-radius: 8px;
+      display: block;
       position: relative;
+      @media (max-width: $breakpoint1100) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media (max-width: $breakpoint768) {
+        width: 210px;
+      }
+      @media (max-width: $breakpoint600) {
+        width: 70%;
+      }
+      @media (max-width: $breakpoint480) {
+        width: 90%;
+      }
       &:before {
         position: absolute;
         content: '';
@@ -37,40 +69,40 @@
         left: 0;
       }
     }
-    &:nth-child(1) .skills__item-strip:before {
+    &:nth-child(1) .skills__item-strip span:before {
       width: 90%;
     }
-    &:nth-child(2) .skills__item-strip:before {
+    &:nth-child(2) .skills__item-strip span:before {
       width: 80%;
     }
-    &:nth-child(3) .skills__item-strip:before {
+    &:nth-child(3) .skills__item-strip span:before {
       width: 75%;
     }
-    &:nth-child(4) .skills__item-strip:before {
+    &:nth-child(4) .skills__item-strip span:before {
       width: 45%;
     }
-    &:nth-child(5) .skills__item-strip:before {
+    &:nth-child(5) .skills__item-strip span:before {
       width: 70%;
     }
-    &:nth-child(6) .skills__item-strip:before {
+    &:nth-child(6) .skills__item-strip span:before {
       width: 95%;
     }
-    &:nth-child(7) .skills__item-strip:before {
+    &:nth-child(7) .skills__item-strip span:before {
       width: 60%;
     }
-    &:nth-child(8) .skills__item-strip:before {
+    &:nth-child(8) .skills__item-strip span:before {
       width: 80%;
     }
-    &:nth-child(9) .skills__item-strip:before {
+    &:nth-child(9) .skills__item-strip span:before {
       width: 75%;
     }
-    &:nth-child(10) .skills__item-strip:before {
+    &:nth-child(10) .skills__item-strip span:before {
       width: 45%;
     }
-    &:nth-child(11) .skills__item-strip:before {
+    &:nth-child(11) .skills__item-strip span:before {
       width: 60%;
     }
-    &:nth-child(12) .skills__item-strip:before {
+    &:nth-child(12) .skills__item-strip span:before {
       width: 50%;
     }
   }

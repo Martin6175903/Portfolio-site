@@ -2,11 +2,16 @@
 
 @use "sass:math";
 $containerWidth: 1200;
-$containerPadding: 40;
+$containerPadding: 20;
 $containerSidePadding: math.div($containerPadding, 2);
 $breakpoint1400: 1339.98+px;
+$breakpoint1350: 1349.98+px;
+$breakpoint1100: 1099.98+px;
 $breakpoint992: 991.98+px;
+$breakpoint900: 899.98+px;
+$breakpoint800: 799.98+px;
 $breakpoint768: 767.98+px;
+$breakpoint600: 599.98+px;
 $breakpoint480: 479.98+px;
 
 // Burget Menu

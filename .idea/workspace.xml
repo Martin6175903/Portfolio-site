@@ -5,24 +5,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7038987-fb6e-436c-8100-327e4203a685" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/MainPage/hobbies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/MainPage/hobbies.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/MainPage/skills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/advantages/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/advantages/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/advantages/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/advantages/04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/clients/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/clients/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/clients/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/clients/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/clients/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/clients/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/footer/icons/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/footer/icons/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/footer/icons/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/footer/social/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/footer/social/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/footer/social/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/footer/social/04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/getintouch/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/getintouch/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/getintouch/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/mainblock/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/practice/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/practice/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/practice/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/practice/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/services/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/services/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/services/03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/whoweare/icons/01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/img/whoweare/icons/02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relvise/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/Profile/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/Profile/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/Profile/place.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/education/education.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/education/education.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/facebook.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/instagram.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/photo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/photo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/telegram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/telegram.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/vk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/vk.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/cycling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/cycling.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/gaming.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/gaming.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/photography.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/photography.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/sport.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/travel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/travel.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/arrow-right-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/arrow-right-gray.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/arrow-right.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/human.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/human.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/MainPage/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/MainPage/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/MainPage/reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/MainPage/reference.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/MainPage/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/MainPage/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/chunk/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/chunk/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/MainPage/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/MainPage/aside.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/MainPage/education.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/MainPage/education.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/MainPage/hobbies.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/MainPage/hobbies.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/MainPage/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/MainPage/profile.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/MainPage/reference.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/MainPage/reference.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/MainPage/skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/MainPage/skills.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/block/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/block/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/block/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/block/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,30 +117,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Portfolio/src/img/mainPage/header&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Portfolio",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Portfolio" />
       <recent name="D:\Portfolio\src\img\mainPage\header" />
       <recent name="C:\Users\marti\OneDrive\Рабочий стол\mozi\src\scss\block" />
       <recent name="D:\innoma\task" />
       <recent name="D:\innoma\src\scss" />
-      <recent name="D:\innoma\src\html" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\innoma\dir" />
@@ -132,7 +197,12 @@
       <workItem from="1679872645837" duration="1466000" />
       <workItem from="1679906161780" duration="4181000" />
       <workItem from="1679916406217" duration="9096000" />
-      <workItem from="1679981073041" duration="13245000" />
+      <workItem from="1679981073041" duration="14353000" />
+      <workItem from="1680012166141" duration="1148000" />
+      <workItem from="1680030780231" duration="4103000" />
+      <workItem from="1680072408895" duration="5475000" />
+      <workItem from="1680094409643" duration="2351000" />
+      <workItem from="1680110725488" duration="696000" />
     </task>
     <servers />
   </component>

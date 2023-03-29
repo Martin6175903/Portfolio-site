@@ -6,8 +6,13 @@
     line-height: 36px;
     text-align: justify;
     margin: 20px 0 40px;
+    @media (max-width: $breakpoint480) {
+      font-size: 16px;
+      line-height: 28px;
+    }
   }
   &__box {
+    margin-top: 40px;
     &-text {
       padding-left: 50px;
       margin-bottom: 20px;
@@ -15,12 +20,19 @@
       line-height: 36px;
       color: $text-color;
       position: relative;
+      @media (max-width: $breakpoint480) {
+        font-size: 17px;
+        line-height: 28px;
+      }
       &:before {
         content: '';
         position: absolute;
         left: 0;
         top: 7px;
         background-repeat: no-repeat;
+        @media (max-width: $breakpoint480) {
+          top: 3px;
+        }
       }
     }
     &-text:nth-child(1):before {

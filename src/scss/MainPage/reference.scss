@@ -1,6 +1,10 @@
 .reference {
   margin-left: 50px;
   margin-bottom: 70px;
+  @media (max-width: $breakpoint768) {
+    margin-left: 0;
+    text-align: center;
+  }
   &__title {
     text-transform: none;
   }
@@ -8,9 +12,22 @@
     margin-top: 45px;
     margin-left: 40px;
     display: flex;
+    @media (max-width: $breakpoint1350) {
+      display: block;
+    }
+    @media (max-width: $breakpoint768) {
+      margin-left: 0;
+    }
     &-title {
       width: 100%;
       max-width: 210px;
+      @media (max-width: $breakpoint1350) {
+        max-width: 180px;
+        margin-bottom: 20px;
+      }
+      @media (max-width: $breakpoint768) {
+        margin: 0 auto 20px auto;
+      }
     }
     &-link {
       text-decoration: none;
@@ -19,6 +36,10 @@
       color: #333333;
       font-family: $font-poppins;
       font-weight: 700;
+      @media (max-width: $breakpoint480) {
+        font-size: 25px;
+        line-height: 30px;
+      }
       &:hover {
         text-decoration: underline;
       }
@@ -28,6 +49,10 @@
       line-height: 40px;
       font-weight: 700;
       color: $title-color;
+      @media (max-width: $breakpoint480) {
+        font-size: 24px;
+        line-height: 30px;
+      }
     }
     &-text {
       margin-top: 15px;
@@ -35,6 +60,14 @@
       line-height: 40px;
       color: #666666;
       margin-bottom: 15px;
+      @media (max-width: $breakpoint992) {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      @media (max-width: $breakpoint480) {
+        font-size: 18px;
+        line-height: 22px;
+      }
     }
     &-btn {
       text-decoration: none;
@@ -49,6 +82,10 @@
       border-radius: 8px;
       position: relative;
       transition: all .3s;
+      @media (max-width: $breakpoint992) {
+        font-size: 15px;
+        line-height: 20px;
+      }
       &:before {
         content: '';
         position: absolute;
@@ -70,6 +107,9 @@
   }
   &__inner {
     margin-left: 50px;
+    @media (max-width: $breakpoint1350) {
+      margin-left: 0;
+    }
   }
 }
 
