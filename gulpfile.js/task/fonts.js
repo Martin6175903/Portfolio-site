@@ -1,4 +1,3 @@
-
 // Обработка Fonts
 const fonts = () => {
     return $.gulp.src($.path.fonts.src)
