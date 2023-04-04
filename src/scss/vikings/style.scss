@@ -1,3 +1,7 @@
+@import "reset.scss";
+@import "slick.scss";
+@import "jquery.fancybox.scss";
+
 * {
     box-sizing: border-box;
 }
@@ -452,7 +456,6 @@ a {
         top: 22px;
     }
     .menu__btn {
-        display: block;
         width: 50px;
         height: 40px;
         cursor: pointer;

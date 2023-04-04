@@ -1,3 +1,6 @@
+import $ from 'jquery';
+import 'slick-carousel';
+
 $(function() {
 
     $('.menu__btn').on('click',function() {

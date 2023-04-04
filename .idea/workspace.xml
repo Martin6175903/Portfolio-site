@@ -5,96 +5,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7038987-fb6e-436c-8100-327e4203a685" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/vikings/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/vikings/seasons-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/arrow-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/arrow-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/header-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/hero-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/page-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-1-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-1-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-2-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-3-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-4-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-5-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-6-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-7-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-8-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/season-9-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/seasons-image-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/seasons-image-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/seasons-image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/seasons-image-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/seasons-image-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/seasons-image-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/video-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/whoweare__video-img.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/vikings/youtube-btn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vikings/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vikings/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/vikings/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/vikings/jquery.fancybox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/vikings/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/vikings/slick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/vikings/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js/task/fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js/task/fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js/task/html.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js/task/html.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js/task/img.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js/task/img.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js/task/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js/task/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js/task/scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js/task/scss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/vikings/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/vikings/reset.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/vikings/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/vikings/slick.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/vikings/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/vikings/seasons-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/Profile/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/Profile/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/Profile/place.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/education/education.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/education/education.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/facebook.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/instagram.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/photo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/photo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/telegram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/telegram.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/vk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/header/vk.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/cycling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/cycling.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/gaming.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/gaming.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/photography.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/photography.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/sport.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/travel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/hobbies/travel.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/arrow-right-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/arrow-right-gray.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/arrow-right.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/human.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainPage/reference/human.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/arrow-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/arrow-left.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/arrow-right.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/header-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/hero-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/hero-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/logo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/page-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/page-logo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-1-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-1-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-1-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-1-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-2-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-2-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-3-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-3-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-4-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-4-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-5-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-5-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-6-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-6-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-7-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-7-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-8-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-8-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-9-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/season-9-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/seasons-image-6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/video-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/video-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vikings/youtube-btn.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/advantages/01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/advantages/02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/advantages/03.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/advantages/04.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/clients/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/clients/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/clients/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/clients/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/clients/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/clients/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/footer/icons/01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/footer/icons/02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/footer/icons/03.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/footer/social/01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/footer/social/02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/footer/social/03.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/footer/social/04.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/getintouch/01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/getintouch/02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/getintouch/03.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/mainblock/cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/practice/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/practice/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/practice/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/practice/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/services/01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/services/02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/services/03.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/whoweare/icons/01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/img/whoweare/icons/02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relvise/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Europa-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Europa-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/MainPage/reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/MainPage/reference.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/vikings/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/vikings/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/vikings/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/vikings/jquery.fancybox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/vikings/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/vikings/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/vikings/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/vikings/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/vikings/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,23 +129,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Portfolio/src/scss/vikings",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Portfolio/src/scss/vikings&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Portfolio\src\scss\vikings" />
@@ -156,7 +162,10 @@
       <recent name="D:\innoma\src\css\block" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
+  <component name="RunManager" selected="Node.js.html.js">
+    <configuration name="html.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/gulpfile.js/task/html.js" working-dir="$PROJECT_DIR$/gulpfile.js/task">
+      <method v="2" />
+    </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/test.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
@@ -172,6 +181,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.html.js" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="npm.start" />
       </list>
@@ -219,7 +229,11 @@
       <workItem from="1680208387233" duration="991000" />
       <workItem from="1680212274859" duration="1638000" />
       <workItem from="1680268737682" duration="572000" />
-      <workItem from="1680427589253" duration="4273000" />
+      <workItem from="1680427589253" duration="6131000" />
+      <workItem from="1680465211815" duration="953000" />
+      <workItem from="1680466211634" duration="708000" />
+      <workItem from="1680511461383" duration="1642000" />
+      <workItem from="1680611352001" duration="3158000" />
     </task>
     <servers />
   </component>

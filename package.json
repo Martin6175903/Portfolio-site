@@ -53,5 +53,8 @@
     "sass": "^1.57.1",
     "webpack": "^5.75.0",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
   }
 }
