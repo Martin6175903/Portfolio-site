@@ -1,0 +1,141 @@
+.header {
+  padding-top: 62px;
+  .info {
+    &__items {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      @media (max-width: $breakpoint600) {
+        display: block;
+      }
+    }
+    &__item-img {
+      border-radius: 10px;
+    }
+    &__item:first-child {
+      flex-basis: 30%;
+    }
+    &__item:last-child {
+      flex-basis: 60%;
+      @media (max-width: $breakpoint600) {
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+    &__item-box:last-child {
+      margin-top: 40px;
+      padding: 40px 0 40px;
+      border-top: 1px solid #999999;
+      border-bottom: 1px solid #999999;
+    }
+    &__item-box__title {
+      font-size: 50px;
+      line-height: 58.5px;
+      font-weight: 900;
+      color: $title-color;
+      margin-bottom: 19px;
+      @media (max-width: $breakpoint1100) {
+        font-size: 35px;
+        line-height: 43px;
+      }
+      @media (max-width: $breakpoint992) {
+        font-size: 28px;
+        line-height: 35px;
+      }
+      @media (max-width: $breakpoint480) {
+        font-size: 24px;
+        line-height: 28px;
+      }
+      &--two {
+        font-weight: 300;
+        color: #A9A9A9;
+      }
+    }
+    &__item-box__text {
+      font-size: 30px;
+      line-height: 36px;
+      color: $title-color;
+      @media (max-width: $breakpoint992) {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      @media (max-width: $breakpoint480) {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+    &__item:first-child picture {
+      @media (max-width: $breakpoint600) {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    &__item:first-child img {
+      width: 100%;
+      @media (max-width: $breakpoint768) {
+        width: 120%;
+      }
+      @media (max-width: $breakpoint600) {
+        width: 50%;
+      }
+    }
+    &__item-box__links {
+      padding-left: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      @media (max-width: $breakpoint992) {
+        width: 100%;
+        display: block;
+      }
+      @media (max-width: $breakpoint600) {
+        text-align: center;
+        padding-left: 0;
+      }
+    }
+    &__item-box__link {
+      flex-basis: 40%;
+      position: relative;
+      padding-left: 50px;
+      margin-bottom: 20px;
+      color: #333333;
+      font-size: 30px;
+      line-height: 36px;
+      text-decoration: none;
+      margin-right: 40px;
+      @media (max-width: $breakpoint992) {
+        width: 100%;
+        display: block;
+      }
+      @media (max-width: $breakpoint600) {
+        padding-left: 0;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+      &:before {
+        position: absolute;
+        left: 0;
+        top: 5px;
+        content: '';
+        width: 24px;
+        height: 24px;
+        @media (max-width: $breakpoint600) {
+          display: none;
+        }
+      }
+      &:nth-child(1):before {
+        background-image: url("../../img/mainPage/header/vk.png");
+      }
+      &:nth-child(2):before {
+        background-image: url("../../img/mainPage/header/instagram.png");
+      }
+      &:nth-child(3):before {
+        background-image: url("../../img/mainPage/header/telegram.png");
+      }
+      &:nth-child(4):before {
+        background-image: url("../../img/mainPage/header/facebook.png");
+      }
+    }
+  }
+}

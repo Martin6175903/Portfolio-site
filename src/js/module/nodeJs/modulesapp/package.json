@@ -1,0 +1,8 @@
+{
+  "name": "modulesapp",
+  "version": "1.0.0",
+  "scripts" : {
+    "start" : "node test.js",
+    "dev" : "node test.js Tom 26"
+  }
+}

@@ -1,0 +1,21 @@
+@import "block/reset";
+@import "block/vars";
+@import "block/fonts";
+@import "block/global";
+@import "block/header";
+@import "block/footer";
+@import "block/modal";
+
+.main {
+  &__box {
+    display: flex;
+    @media (max-width: $breakpoint768) {
+      display: block;
+    }
+  }
+}
+
+@import "MainPage/aside.scss";
+@import "MainPage/reference.scss";
+@import "MainPage/skills.scss";
+@import "MainPage/hobbies.scss";

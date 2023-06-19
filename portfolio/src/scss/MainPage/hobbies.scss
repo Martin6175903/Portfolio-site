@@ -1,0 +1,37 @@
+.hobbies {
+  margin-bottom: 70px;
+  @media (max-width: $breakpoint600) {
+    margin-bottom: 20px;
+  }
+  &__items {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: $breakpoint768) {
+      flex-wrap: wrap;
+    }
+  }
+  &__item {
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: $breakpoint768) {
+      margin-bottom: 40px;
+    }
+    &-box {
+      padding: 30px;
+      border: 2px dotted $title-color;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  }
+}

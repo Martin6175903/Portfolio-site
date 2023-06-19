@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7038987-fb6e-436c-8100-327e4203a685" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/innoma.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js/task/clear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js/task/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js/task/fonts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js/task/html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js/task/img.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js/task/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js/task/pug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js/task/scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulpfile.js/task/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/vikings/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/vikings/reset.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/vikings/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/vikings/slick.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/MainPage/aside.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/MainPage/education.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/MainPage/hobbies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/MainPage/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/MainPage/reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/MainPage/skills.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/chunk/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/chunk/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/chunk/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/vikings/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/html/vikings/seasons-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/Profile/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/Profile/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/Profile/place.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/education/education.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/header/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/header/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/header/photo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/header/photo_2023-03-27_14-28-36.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/header/telegram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/header/vk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/hobbies/cycling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/hobbies/gaming.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/hobbies/photography.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/hobbies/sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/hobbies/travel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/reference/arrow-right-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/reference/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/mainPage/reference/human.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/arrow-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/hero-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/page-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-1-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-1-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-2-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-3-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-4-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-5-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-6-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-7-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-8-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/season-9-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/seasons-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/seasons-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/seasons-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/seasons-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/seasons-image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/seasons-image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/video-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/whoweare__video-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/vikings/youtube-btn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/js/module/sum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/js/vikings/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/MainPage/aside.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/MainPage/education.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/MainPage/hobbies.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/MainPage/profile.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/MainPage/reference.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/MainPage/skills.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/block/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/block/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/block/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/block/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/block/modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/block/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/block/vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/vikings/jquery.fancybox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/vikings/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/vikings/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/scss/vikings/style.scss" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KVqXPTYyfgGwyBg7WqAWvLK8pP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Info projects/portfolio/portfolio",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "D:/Portfolio/src/js/module/mocha/node_modules/mocha",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "D:\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Portfolio\src\js\module\typescript\OOP\interface" />
+      <recent name="D:\Portfolio\src\js\module\typescript\OOP" />
+      <recent name="D:\Portfolio\src\js\module\sequelize-one-to-many" />
+      <recent name="D:\Portfolio\src\js\module\sequelize" />
+      <recent name="D:\Portfolio\src\scss\vikings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Portfolio\src\js\module\nodeJs" />
+      <recent name="D:\Portfolio\src\js\module\download-files" />
+      <recent name="D:\Portfolio\src\js\module\mongo\public" />
+      <recent name="D:\Portfolio\src\js\module\expressapp\views\partials" />
+      <recent name="D:\Portfolio\src\js\module\expressapp\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.test.js (1)">
+    <configuration name="html.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/gulpfile.js/task/html.js" working-dir="$PROJECT_DIR$/gulpfile.js/task">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/module/typescript/introductionToTheTypescript/test.js" working-dir="$PROJECT_DIR$/src/js/module/typescript/introductionToTheTypescript">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/module/nodeJs/modulesapp/test.js" working-dir="$PROJECT_DIR$/src/js/module">
+      <method v="2" />
+    </configuration>
+    <configuration name="Operation Tests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/src/js/module/mocha/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/src/js/module/mocha</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/src/js/module/mocha/operations.test.js</test-file>
+      <test-names>
+        <name value="Operation Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Operation Tests.should add two numbers" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/src/js/module/mocha/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/src/js/module/mocha</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/src/js/module/mocha/operations.test.js</test-file>
+      <test-names>
+        <name value="Operation Tests" />
+        <name value="should add two numbers" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="should async multiply two numbers" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/src/js/module/mocha/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/src/js/module/mocha</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/src/js/module/mocha/operations.test.js</test-file>
+      <test-names>
+        <name value="should async multiply two numbers" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js (1)" />
+        <item itemvalue="Mocha.Operation Tests.should add two numbers" />
+        <item itemvalue="Mocha.Operation Tests" />
+        <item itemvalue="Mocha.should async multiply two numbers" />
+        <item itemvalue="Node.js.html.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7038987-fb6e-436c-8100-327e4203a685" name="Changes" comment="" />
+      <created>1674070139386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674070139386</updated>
+      <workItem from="1674070140809" duration="136000" />
+      <workItem from="1674070291741" duration="1801000" />
+      <workItem from="1674076960914" duration="10633000" />
+      <workItem from="1674126428616" duration="13288000" />
+      <workItem from="1674162169273" duration="8489000" />
+      <workItem from="1674218444086" duration="6897000" />
+      <workItem from="1674320132100" duration="3642000" />
+      <workItem from="1674334148382" duration="1053000" />
+      <workItem from="1674400045519" duration="1169000" />
+      <workItem from="1676732127273" duration="276000" />
+      <workItem from="1676732491579" duration="1589000" />
+      <workItem from="1676753098263" duration="391000" />
+      <workItem from="1676813475977" duration="4536000" />
+      <workItem from="1679659497564" duration="841000" />
+      <workItem from="1679742930827" duration="2914000" />
+      <workItem from="1679776726389" duration="82000" />
+      <workItem from="1679836282908" duration="3137000" />
+      <workItem from="1679847385418" duration="39000" />
+      <workItem from="1679847438674" duration="5919000" />
+      <workItem from="1679857734433" duration="8187000" />
+      <workItem from="1679872645837" duration="1466000" />
+      <workItem from="1679906161780" duration="4181000" />
+      <workItem from="1679916406217" duration="9096000" />
+      <workItem from="1679981073041" duration="14353000" />
+      <workItem from="1680012166141" duration="1148000" />
+      <workItem from="1680030780231" duration="4103000" />
+      <workItem from="1680072408895" duration="5475000" />
+      <workItem from="1680094409643" duration="2351000" />
+      <workItem from="1680110725488" duration="4440000" />
+      <workItem from="1680155979699" duration="6862000" />
+      <workItem from="1680205099778" duration="332000" />
+      <workItem from="1680208387233" duration="991000" />
+      <workItem from="1680212274859" duration="1638000" />
+      <workItem from="1680268737682" duration="572000" />
+      <workItem from="1680427589253" duration="6131000" />
+      <workItem from="1680465211815" duration="953000" />
+      <workItem from="1680466211634" duration="708000" />
+      <workItem from="1680511461383" duration="1642000" />
+      <workItem from="1680611352001" duration="6140000" />
+      <workItem from="1680808754253" duration="592000" />
+      <workItem from="1680901019583" duration="1005000" />
+      <workItem from="1680950139712" duration="1217000" />
+      <workItem from="1680975261927" duration="3693000" />
+      <workItem from="1680982563987" duration="2753000" />
+      <workItem from="1681030853064" duration="2799000" />
+      <workItem from="1681059435987" duration="1334000" />
+      <workItem from="1681152985835" duration="3000" />
+      <workItem from="1681335892931" duration="1424000" />
+      <workItem from="1681764219584" duration="1679000" />
+      <workItem from="1681821346877" duration="10362000" />
+      <workItem from="1681885773916" duration="1097000" />
+      <workItem from="1681915769873" duration="2363000" />
+      <workItem from="1681929099230" duration="2805000" />
+      <workItem from="1681977286917" duration="3362000" />
+      <workItem from="1682059751985" duration="3021000" />
+      <workItem from="1682086047204" duration="3878000" />
+      <workItem from="1682144789113" duration="1989000" />
+      <workItem from="1682176669902" duration="10695000" />
+      <workItem from="1682332039622" duration="11119000" />
+      <workItem from="1682359410824" duration="3728000" />
+      <workItem from="1682423289171" duration="11089000" />
+      <workItem from="1682498303214" duration="15453000" />
+      <workItem from="1682592370235" duration="11758000" />
+      <workItem from="1682676002323" duration="7914000" />
+      <workItem from="1682716079909" duration="1658000" />
+      <workItem from="1682791909432" duration="273000" />
+      <workItem from="1682792206064" duration="109000" />
+      <workItem from="1682792382140" duration="1837000" />
+      <workItem from="1682853477076" duration="16103000" />
+      <workItem from="1682971756245" duration="1366000" />
+      <workItem from="1687198545919" duration="1220000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="persistence" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
