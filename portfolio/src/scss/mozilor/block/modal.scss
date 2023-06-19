@@ -1,0 +1,44 @@
+.burger {
+  width: 27px;
+  height: 26px;
+  position: relative;
+  cursor: pointer;
+  &:before, &:after {
+    z-index: 1001;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 27px;
+    background-color: $title;
+    transition: all .3s ease;
+  }
+  &:before {
+    top: 5px;
+  }
+  &:after {
+    bottom: 4px;
+  }
+  & span {
+    position: absolute;
+    background-color: $title;
+    height: 3px;
+    top: 11.5px;
+    left: 0;
+    right: 0;
+  }
+}
+
+.burger.modal__menu {
+  & span {
+    transition: all .3s ease;
+    opacity: 0;
+  }
+  &:before {
+    transform: rotate(45deg) translate(5px, 4px);
+    background-color: white;
+  }
+  &:after {
+    background-color: white;
+    transform: rotate(-45deg) translate(6px, -5px);
+  }
+}

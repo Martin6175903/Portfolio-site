@@ -1,0 +1,59 @@
+.location {
+  position: absolute;
+  top: 112px;
+  left: 661px;
+  @media (max-width: $breakpoint992) {
+    top: 90px;
+    left: 540px;
+  }
+  @media (max-width: $breakpoint850) {
+    position: static;
+    margin-top: 80px;
+  }
+  &__items {
+    max-width: 350px;
+    @media (max-width: $breakpoint850) {
+      max-width: 50%;
+      margin: 0 auto;
+    }
+    @media (max-width: $breakpoint600) {
+     max-width: 80%;
+    }
+  }
+  &__item {
+    margin-bottom: 72px;
+    @media (max-width: $breakpoint850) {
+      margin: 0 auto 72px;
+    }
+    &-title {
+      padding-left: 60px;
+      margin-bottom: 25px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 150%;
+      position: relative;
+      &:before {
+        content: '';
+        width: 40px;
+        height: 27px;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+    &:nth-child(1) &-title:before {
+      background: url("../../../img/contactPage/message/flag-1.png");
+    }
+    &:nth-child(2) &-title:before {
+      background: url("../../../img/contactPage/message/flag-2.png");
+    }
+    &:nth-child(3) &-title:before {
+      background: url("../../../img/contactPage/message/flag-3.png");
+    }
+    &-text {
+      font-size: 16px;
+      line-height: 150%;
+    }
+  }
+
+}

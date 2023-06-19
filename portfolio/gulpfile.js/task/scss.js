@@ -18,8 +18,8 @@ const scss = {
         .pipe($.gp.size({ title: "main.min.css"} ))
         .pipe($.gulp.dest($.path.scss.dest, { sourcemaps: $.app.isDev }));
     },
-    scssProd() {
-        return $.gulp.src($.path.scss.project.src, { sourcemaps: $.app.isDev })
+    scssMozilor() {
+        return $.gulp.src($.path.scss.mozilor.src, { sourcemaps: $.app.isDev })
             .pipe($.gp.plumber({
                 errorHandler: $.gp.notify.onError()
             }))
@@ -30,11 +30,11 @@ const scss = {
             .pipe($.gp.shorthand())
             .pipe($.gp.groupCssMediaQueries())
             .pipe($.gp.size({ title: "main.css"} ))
-            .pipe($.gulp.dest($.path.scss.project.dest, { sourcemaps: $.app.isDev }))
+            .pipe($.gulp.dest($.path.scss.mozilor.dest, { sourcemaps: $.app.isDev }))
             .pipe($.gp.rename({ suffix: ".min" }))
             .pipe($.gp.csso())
             .pipe($.gp.size({ title: "main.min.css"} ))
-            .pipe($.gulp.dest($.path.scss.project.dest, { sourcemaps: $.app.isDev }));
+            .pipe($.gulp.dest($.path.scss.mozilor.dest, { sourcemaps: $.app.isDev }));
     }
 }
 

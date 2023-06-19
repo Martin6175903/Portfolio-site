@@ -1,0 +1,119 @@
+.products {
+  padding: 106px 0 108px;
+  .subtitle {
+    margin-bottom: 97px;
+  }
+  &__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $breakpoint1150) {
+      display: block;
+    }
+  }
+  &__item {
+    position: relative;
+    width: 560px;
+    height: 530px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.08);
+    border-radius: 8px;
+    flex-basis: 48.5%;
+    @media (max-width: $breakpoint1150) {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+    }
+    @media (max-width: $breakpoint600) {
+      height: 435px;
+    }
+    @media (max-width: $breakpoint480) {
+      height: 360px;
+    }
+    &-title {
+      margin: 40px 0 32px;
+      font-size: 24px;
+      line-height: 31px;
+      color: #3A3A3C;
+      @media (max-width: $breakpoint480) {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+    &-btn {
+      position: relative;
+      padding-left: 50px;
+      @media (max-width: $breakpoint600) {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 14px;
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        left: 24px;
+        bottom: 17.5px;
+        width: 14px;
+        height: 14px;
+        background-image: url("../../../img/MainPage/products/arrow-right.svg");
+      }
+    }
+    &-logo {
+      @media (max-width: $breakpoint480) {
+        max-width: 170px;
+      }
+    }
+    &-img {
+      position: absolute;
+      bottom: 0;
+      @media (max-width: $breakpoint768) {
+        max-width: 400px;
+      }
+      @media (max-width: $breakpoint600) {
+        max-width: 300px;
+      }
+      @media (max-width: $breakpoint480) {
+        max-width: 200px;
+      }
+    }
+    &:first-child &-img {
+      left: 10px;
+      @media (max-width: $breakpoint1150) {
+        right: 10px;
+        left: auto;
+      }
+    }
+    &:last-child &-img {
+      left: 44px;
+      @media (max-width: $breakpoint1150) {
+        right: 44px;
+        left: auto;
+      }
+      @media (max-width: $breakpoint480) {
+        right: 0;
+      }
+    }
+  }
+  &__item:last-child {
+    @media (max-width: $breakpoint1150) {
+      margin-top: 50px;
+    }
+  }
+  &__wrapper {
+    max-width: 352px;
+    margin-top: 64px;
+    margin-left: 62px;
+    @media (max-width: $breakpoint1150) {
+      margin-top: 0;
+      padding-top: 64px;
+    }
+    @media (max-width: $breakpoint600) {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 30px;
+      text-align: center;
+    }
+  }
+}

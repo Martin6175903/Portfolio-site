@@ -1,0 +1,56 @@
+.future {
+  margin-bottom: 137px;
+  &__box {
+    margin: 0 auto;
+    max-width: 878px;
+    margin-bottom: 40px;
+  }
+  &__btns {
+    display: flex;
+    justify-content: center;
+    @media (max-width: $breakpoint480) {
+      display: block;
+    }
+  }
+  &__btn {
+    padding: 14px 32px;
+    border: 1px solid $btnColor;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 150%;
+    @media (max-width: $breakpoint480) {
+      display: block;
+    }
+    &:first-child {
+      background-color: $btnColor;
+      color: #fff;
+      margin-right: 16px;
+      letter-spacing: 0.0025em;
+      @media (max-width: $breakpoint480) {
+        margin-bottom: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &:hover {
+        transition: all .3s;
+        background-color: #e90e3e;
+      }
+    }
+    &:last-child {
+      background-color: transparent;
+      color: $btnColor;
+      letter-spacing: 0.005em;
+      @media (max-width: $breakpoint480) {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &:hover {
+        transition: all .3s;
+        background-color: $btnColor;
+        color: #fff;
+      }
+    }
+  }
+}

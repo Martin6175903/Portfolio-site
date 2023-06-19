@@ -70,40 +70,40 @@
       }
     }
     &:nth-child(1) .skills__item-strip span:before {
-      width: 90%;
-    }
-    &:nth-child(2) .skills__item-strip span:before {
-      width: 80%;
-    }
-    &:nth-child(3) .skills__item-strip span:before {
-      width: 75%;
-    }
-    &:nth-child(4) .skills__item-strip span:before {
-      width: 45%;
-    }
-    &:nth-child(5) .skills__item-strip span:before {
-      width: 70%;
-    }
-    &:nth-child(6) .skills__item-strip span:before {
       width: 95%;
     }
-    &:nth-child(7) .skills__item-strip span:before {
-      width: 60%;
+    &:nth-child(2) .skills__item-strip span:before {
+      width: 100%;
     }
-    &:nth-child(8) .skills__item-strip span:before {
-      width: 80%;
+    &:nth-child(3) .skills__item-strip span:before {
+      width: 85%;
     }
-    &:nth-child(9) .skills__item-strip span:before {
+    &:nth-child(4) .skills__item-strip span:before {
+      width: 87%;
+    }
+    &:nth-child(5) .skills__item-strip span:before {
       width: 75%;
     }
+    &:nth-child(6) .skills__item-strip span:before {
+      width: 75%;
+    }
+    &:nth-child(7) .skills__item-strip span:before {
+      width: 30%;
+    }
+    &:nth-child(8) .skills__item-strip span:before {
+      width: 20%;
+    }
+    &:nth-child(9) .skills__item-strip span:before {
+      width: 85%;
+    }
     &:nth-child(10) .skills__item-strip span:before {
-      width: 45%;
+      width: 60%;
     }
     &:nth-child(11) .skills__item-strip span:before {
       width: 60%;
     }
     &:nth-child(12) .skills__item-strip span:before {
-      width: 50%;
+      width: 75%;
     }
   }
 }

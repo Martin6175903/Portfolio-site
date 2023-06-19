@@ -1,0 +1,34 @@
+@import "block/reset.scss";
+@import "block/vars.scss";
+@import "block/global.scss";
+@import "block/fonts.scss";
+@import "block/footer.scss";
+@import "block/modal.scss";
+
+
+// Sections SCSS files imports
+@import "block/header.scss";
+@import "block/edit-header.scss";
+@import "block/MainPage/brands.scss";
+@import "block/MainPage/products.scss";
+@import "block/MainPage/creators.scss";
+@import "block/MainPage/innovation.scss";
+@import "block/MainPage/ideas.scss";
+@import "block/productsPage/edit-header.scss";
+@import "block/productsPage/products.scss";
+@import "block/productsPage/future.scss";
+@import "block/aboutPage/editionHeader.scss";
+@import "block/aboutPage/statistic.scss";
+@import "block/aboutPage/culture.scss";
+@import "block/aboutPage/work.scss";
+@import "block/aboutPage/hiring.scss";
+@import "block/contactPage/editionHeader.scss";
+@import "block/contactPage/message.scss";
+@import "block/contactPage/location.scss";
+// @import './footer';
+
+// Libs
+@import "node_modules/slick-carousel/slick/slick.scss";
+@import "node_modules/slick-carousel/slick/slick-theme.scss";
+// @import './libs/swiper';
+

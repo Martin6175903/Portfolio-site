@@ -12,8 +12,8 @@ const html = {
         .pipe($.gp.size({title: "После сжатия"}))
         .pipe($.gulp.dest($.path.html.dest));
     },
-    htmlProd() {
-        return $.gulp.src($.path.html.project.src)
+    htmlMozilor() {
+        return $.gulp.src($.path.html.mozilor.src)
             .pipe($.gp.plumber({
                 errorHandler: $.gp.notify.onError()
             }))
@@ -22,7 +22,7 @@ const html = {
             .pipe($.gp.size({ title: "До сжатия" }))
             .pipe($.gp.htmlmin($.app.htmlmin))
             .pipe($.gp.size({title: "После сжатия"}))
-            .pipe($.gulp.dest($.path.html.project.dest));
+            .pipe($.gulp.dest($.path.html.mozilor.dest));
     }
 }
 

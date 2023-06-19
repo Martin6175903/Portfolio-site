@@ -52,11 +52,11 @@
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2",
     "sass": "^1.57.1",
+    "slick-carousel": "^1.8.1",
     "webpack": "^5.75.0",
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "sequelize": "^6.31.0",
-    "slick-carousel": "^1.8.1"
+    "sequelize": "^6.31.0"
   }
 }

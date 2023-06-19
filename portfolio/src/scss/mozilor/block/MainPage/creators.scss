@@ -1,0 +1,61 @@
+.creators {
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+  padding: 256px 0 264px;
+  @media (max-width: $breakpoint992) {
+    padding: 150px 0 158px;
+  }
+  @media (max-width: $breakpoint768) {
+    padding: 100px 0 108px;
+  }
+  @media (max-width: $breakpoint480) {
+    padding: 50px 0 58px;
+  }
+  &__container {
+    position: relative;
+  }
+  &__inner {
+    max-width: 416px;
+    @media (max-width: $breakpoint768) {
+      margin: 0 auto;
+    }
+  }
+  &__title, &__subtitle {
+    text-align: left;
+  }
+  &__img {
+    position: absolute;
+    left: 585px;
+    top: -185px;
+    @media (max-width: $breakpoint1300) {
+      left: 600px;
+      top: -100px;
+      width: 397px;
+      height: 382px;
+    }
+    @media (max-width: $breakpoint1100) {
+      left: 500px;
+      top: -100px;
+    }
+    @media (max-width: $breakpoint992) {
+      left: 440px;
+      top: -30px;
+      width: 297px;
+      height: 282px;
+    }
+    @media (max-width: $breakpoint768) {
+      position: static;
+      width: 350px;
+      height: 335px;
+    }
+    @media (max-width: $breakpoint480) {
+      position: static;
+      width: 250px;
+      height: 235px;
+    }
+  }
+  & picture {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}

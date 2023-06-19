@@ -1,0 +1,91 @@
+.hiring {
+  position: relative;
+  padding: 155px 0 278px;
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+  @media (max-width: $breakpoint850) {
+    padding-top: 120px;
+    padding-bottom: 150px;
+  }
+  @media (max-width: $breakpoint480) {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  &__info {
+    &-box {
+      margin-left: 83px;
+      max-width: 334px;
+      text-align: center;
+      @media (max-width: $breakpoint850) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 57px;
+      color: $title;
+      @media (max-width: $breakpoint480) {
+        font-size: 35px;
+        line-height: 50px;
+      }
+    }
+    &-subtitle {
+      font-size: 16px;
+      line-height: 27px;
+      color: $subtitle;
+      @media (max-width: $breakpoint480) {
+        font-size: 14px;
+        line-height: 23px;
+      }
+    }
+    &-subtitle:nth-child(2) {
+      margin-top: 16px;
+      margin-bottom: 40px;
+    }
+    &-btn {
+      position: relative;
+      @media (max-width: $breakpoint850) {
+        margin-bottom: 100px;
+      }
+      @media (max-width: $breakpoint480) {
+        margin-bottom: 50px;
+      }
+      &:before {
+        position: absolute;
+        left: 65px;
+        bottom: -75px;
+        content: '';
+        background: url("../../../img/aboutPage/hiring/btn-title.svg");
+        width: 211px;
+        height: 58px;
+        @media (max-width: $breakpoint480) {
+          display: none;
+        }
+      }
+    }
+    &-img {
+      position: absolute;
+      left: 666px;
+      top: 150px;
+      @media (max-width: $breakpoint1300) {
+        max-width: 450px;
+      }
+      @media (max-width: $breakpoint1150) {
+        max-width: 350px;
+      }
+      @media (max-width: $breakpoint1100) {
+        left: 500px;
+      }
+      @media (max-width: $breakpoint992) {
+        left: 450px;
+      }
+      @media (max-width: $breakpoint850) {
+        position: static;
+      }
+      @media (max-width: $breakpoint480) {
+        max-width: 250px;
+      }
+    }
+  }
+}

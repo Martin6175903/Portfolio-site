@@ -1,7 +1,7 @@
 .hobbies {
   margin-bottom: 70px;
-  @media (max-width: $breakpoint600) {
-    margin-bottom: 20px;
+  @media (max-width: $breakpoint768) {
+    margin-bottom: 0;
   }
   &__items {
     margin-top: 50px;
@@ -22,6 +22,10 @@
     @media (max-width: $breakpoint768) {
       margin-bottom: 40px;
     }
+    @media (max-width: $breakpoint600) {
+      width: 120px;
+      margin-bottom: 20px;
+    }
     &-box {
       padding: 30px;
       border: 2px dotted $title-color;
@@ -32,6 +36,10 @@
       justify-content: center;
       align-items: center;
       margin-bottom: 20px;
+      @media (max-width: $breakpoint600) {
+        width: 80px;
+        height: 80px;
+      }
     }
   }
 }

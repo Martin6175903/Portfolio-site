@@ -1,0 +1,114 @@
+.brands {
+  padding: 101px 0 128px;
+
+  &__container {
+    max-width: 1052px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 57px;
+    color: $title;
+    margin-bottom: 80px;
+    text-align: center;
+    @media (max-width: $breakpoint1100) {
+      font-size: 30px;
+      line-height: 50px;
+    }
+
+    &-correction {
+      color: $btnColor;
+    }
+  }
+
+  &__images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: $breakpoint992) {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
+
+  &__images picture {
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__items {
+    @media (max-width: $breakpoint992) {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+    @media (max-width: $breakpoint992) {
+      img {
+        width: 240%;
+      }
+    }
+
+    &:not(:first-child) {
+      @media (max-width: $breakpoint992) {
+        margin-top: 25px;
+      }
+      @media (max-width: $breakpoint768) {
+        margin-top: 25px;
+      }
+      &:nth-child(2) picture:first-child {
+        @media (max-width: $breakpoint992) {
+          margin-left: 85px;
+        }
+        @media (max-width: $breakpoint768) {
+          margin-left: 85px;
+        }
+        @media (max-width: $breakpoint600) {
+          margin-left: 35px;
+        }
+        @media (max-width: $breakpoint480) {
+          margin-left: 0;
+        }
+      }
+      &:nth-child(2) picture:last-child {
+        @media (max-width: $breakpoint992) {
+          margin-right: 110px;
+        }
+        @media (max-width: $breakpoint768) {
+          margin-right: 110px;
+        }
+        @media (max-width: $breakpoint600) {
+          margin-right: 75px;
+        }
+        @media (max-width: $breakpoint480) {
+          margin-right: 5px;
+        }
+      }
+      &:nth-child(3) picture:first-child {
+        @media (max-width: $breakpoint768) {
+          margin-left: 60px;
+        }
+        @media (max-width: $breakpoint600) {
+          margin-left: 35px;
+        }
+        @media (max-width: $breakpoint480) {
+          margin-left: 0;
+        }
+      }
+      &:nth-child(3) picture:last-child {
+        @media (max-width: $breakpoint768) {
+          margin-right: 100px;
+        }
+        @media (max-width: $breakpoint600) {
+          margin-right: 65px;
+        }
+        @media (max-width: $breakpoint480) {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.about-edition {
+  margin-top: 130px;
+  text-align: center;
+  @media (max-width: $breakpoint768) {
+    margin-top: 50px;
+  }
+  & .edit-header {
+    @media (max-width: $breakpoint768) {
+      padding: 50px 0 100px;
+    }
+    @media (max-width: $breakpoint480) {
+      padding: 50px 0 50px;
+    }
+  }
+  &__title, &__subtitle {
+    max-width: 336px !important;
+    text-align: left;
+    @media (max-width: $breakpoint768) {
+      margin: 0 auto;
+      max-width: none;
+      width: 80%;
+    }
+  }
+  &__img {
+    @media (max-width: $breakpoint768) {
+      position: static !important;
+    }
+  }
+}

@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+// Container
+.container {
+  max-width: ($containerWidth + $containerPadding)+px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 $containerPadding+px;
+
+  @media (max-width: $breakpoint992) {
+    max-width: 970px;
+  }
+
+  @media (max-width: $breakpoint768) {
+    max-width: 750px;
+  }
+
+  @media (max-width: $breakpoint480) {
+    max-width: none;
+  }
+}
+
+// Body
+
+body {
+  font-family: 'Europa', sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  &.locked {
+    overflow: hidden;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: $btnColor;
+  border-radius: 6px;
+  border: none;
+  letter-spacing: 0.005em;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: bold;
+  @media (max-width: $breakpoint992) {
+    padding: 12px 26px;
+  }
+  &:hover {
+    transition: all .3s;
+    background-color: #e90e3e;
+  }
+}
+
+.btn__title {
+  padding: 14px 32px;
+  border: 1px solid $btnColor;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 150%;
+  background-color: transparent;
+  color: $btnColor;
+  letter-spacing: 0.005em;
+  cursor: pointer;
+  &:hover {
+    transition: all .3s;
+    background-color: $btnColor;
+    color: white;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 57px;
+  color: $title;
+  margin-bottom: 16px;
+  text-align: center;
+  @media (max-width: $breakpoint992) {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  @media (max-width: $breakpoint768) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  @media (max-width: $breakpoint600) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  @media (max-width: $breakpoint480) {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+.title.title__left {
+  text-align: left;
+  @media (max-width: $breakpoint768) {
+    text-align: center;
+  }
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 27px;
+  color: $subtitle;
+  text-align: center;
+}
+
+.subtitle.subtitle__left {
+  text-align: left;
+  @media (max-width: $breakpoint768) {
+    text-align: center;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

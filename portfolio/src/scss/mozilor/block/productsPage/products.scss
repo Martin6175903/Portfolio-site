@@ -1,0 +1,111 @@
+.cookie-webtoffee {
+  margin-bottom: 188px;
+  .cookie {
+    margin: 201px 0;
+    position: relative;
+  }
+  .webtoffee {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    &__box {
+      max-width: 470px;
+      @media (max-width: $breakpoint768) {
+        max-width: none;
+      }
+    }
+    &__img-bg {
+      position: absolute;
+      top: -80px;
+      left: 9px;
+      @media (max-width: $breakpoint1100) {
+        max-width: 400px;
+        top: 0;
+      }
+      @media (max-width: $breakpoint992) {
+        max-width: 235px;
+        top: 60px;
+      }
+      @media (max-width: $breakpoint768) {
+        max-width: 350px;
+        position: static;
+      }
+      @media (max-width: $breakpoint480) {
+        max-width: 250px;
+      }
+    }
+    .cookie-webtoffee__text:nth-child(2) {
+      margin-top: 32px;
+      margin-bottom: 40px;
+    }
+     .cookie-webtoffee__text {
+      font-size: 16px;
+      line-height: 27px;
+      color: $subtitle;
+      @media (max-width: $breakpoint768) {
+        max-width: 90%;
+        margin: 0 auto;
+      }
+      @media (max-width: $breakpoint480) {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+  .cookie .cookie-webtoffee__box {
+    @media (max-width: $breakpoint768) {
+      max-width: none;
+      text-align: center;
+    }
+  }
+  &__img-bg {
+    position: absolute;
+    right: 9px;
+    top: -81px;
+    @media (max-width: $breakpoint1100) {
+      max-width: 400px;
+      top: 0;
+    }
+    @media (max-width: $breakpoint992) {
+      max-width: 300px;
+      top: 40px;
+      right: 0;
+    }
+    @media (max-width: $breakpoint768) {
+      max-width: 350px;
+      position: static;
+    }
+    @media (max-width: $breakpoint480) {
+      max-width: 250px;
+    }
+  }
+  &__box {
+    max-width: 419px;
+  }
+  &__text:nth-child(2) {
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 27px;
+    color: $subtitle;
+    @media (max-width: $breakpoint768) {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+    @media (max-width: $breakpoint480) {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  &__btn {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: block;
+    @media (max-width: $breakpoint768) {
+      margin: 25px auto 30px;
+    }
+  }
+}

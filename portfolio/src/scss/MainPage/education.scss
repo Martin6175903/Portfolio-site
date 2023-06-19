@@ -26,8 +26,17 @@
       }
     }
   }
+  &__inner {
+    @media (max-width: $breakpoint768) {
+      display: flex;
+      justify-content: center;
+    }
+  }
   &__box {
     margin-top: 30px;
+    @media (max-width: $breakpoint768) {
+      text-align: center;
+    }
     &-title {
       font-size: 26px;
       line-height: 40px;
@@ -48,6 +57,10 @@
       font-weight: 600;
       position: relative;
       margin-bottom: 15px;
+      @media (max-width: $breakpoint768) {
+        display: inline-block;
+        text-align: center;
+      }
       @media (max-width: $breakpoint480) {
         font-size: 20px;
         line-height: 30px;
@@ -71,6 +84,10 @@
       @media (max-width: $breakpoint480) {
         font-size: 20px;
         line-height: 26px;
+      }
+      &--modification {
+        color: #000;
+        font-weight: 700;
       }
     }
   }
