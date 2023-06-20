@@ -51,6 +51,7 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2",
+    "push-dir": "^0.4.1",
     "sass": "^1.57.1",
     "slick-carousel": "^1.8.1",
     "webpack": "^5.75.0",
