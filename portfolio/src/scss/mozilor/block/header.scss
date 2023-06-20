@@ -18,7 +18,10 @@
         margin-left: 60px;
       }
       @media (max-width: $breakpoint992) {
-        margin-left: 30px;
+        margin-left: 45px !important;
+      }
+      @media (max-width: $breakpoint900) {
+        margin-left: 20px !important;
       }
     }
     &__item-link {
@@ -26,7 +29,6 @@
       line-height: 22px;
        color: #646A89;
       &:hover {
-        text-decoration: underline;
         color: $btnColor;
         transition: all .1s;
       }
@@ -51,12 +53,12 @@
       height: 100.2vh;
       transition: top .5s ease;
       .menu__item:last-child {
-        margin-left: auto;
+        margin-left: auto !important;
         margin-right: auto;
         margin-top: 25px;
       }
       .menu__item:not(:last-child) {
-        margin: 25px 0;
+        margin: 25px 0 !important;
       }
       .menu__item-link {
         font-size: 30px;

@@ -1,14 +1,11 @@
 .ideas {
-  padding: 217px 0 242px;
+  padding: 117px 0 142px;
   background: linear-gradient(335.73deg, #E3E7F6 12.46%, rgba(227, 231, 246, 0) 84.19%);
   @media (max-width: $breakpoint992) {
-    padding: 150px 0 158px;
-  }
-  @media (max-width: $breakpoint768) {
-    padding: 100px 0 108px;
+    padding: 100px 0 100px;
   }
   @media (max-width: $breakpoint480) {
-    padding: 50px 0 58px;
+    padding: 30px 0 58px;
   }
   &__inner {
     position: relative;

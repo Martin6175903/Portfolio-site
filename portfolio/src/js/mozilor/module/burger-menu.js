@@ -9,7 +9,7 @@ module.exports =  {
             burger.classList.toggle('modal__menu');
 
             if (module.exports.burgerOpen) {
-                menu.style.top = '-50%';
+                menu.style.top = '-60%';
                 module.exports.burgerOpen = false;
                 document.body.style.overflow = 'visible';
             } else {

@@ -1,18 +1,21 @@
 .cookie-webtoffee {
-  margin-bottom: 188px;
+  margin-bottom: 100px;
   .cookie {
-    margin: 201px 0;
+    margin: 200px 0 250px;
     position: relative;
+    @media (max-width: $breakpoint992) {
+      margin: 100px 0;
+    }
   }
   .webtoffee {
     position: relative;
     display: flex;
     justify-content: flex-end;
-    text-align: center;
     &__box {
       max-width: 470px;
       @media (max-width: $breakpoint768) {
         max-width: none;
+        text-align: center;
       }
     }
     &__img-bg {

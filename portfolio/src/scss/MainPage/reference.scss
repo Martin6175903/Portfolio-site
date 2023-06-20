@@ -94,14 +94,14 @@
         transform: translateY(-50%);
         width: 24px;
         height: 24px;
-        background-image: url("../../img/mainPage/reference/arrow-right.png");
+        background-image: url("../img/mainPage/reference/arrow-right.png");
       }
       &:hover {
         background-color: $title-color;
         color: #fff;
       }
       &:hover:before {
-        background-image: url("../../img/mainPage/reference/arrow-right-gray.png");
+        background-image: url("../img/mainPage/reference/arrow-right-gray.png");
       }
     }
   }

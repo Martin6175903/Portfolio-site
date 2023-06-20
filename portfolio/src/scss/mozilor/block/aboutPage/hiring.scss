@@ -1,23 +1,21 @@
 .hiring {
   position: relative;
-  padding: 155px 0 278px;
+  padding: 100px 0 250px;
   background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
-  @media (max-width: $breakpoint850) {
-    padding-top: 120px;
-    padding-bottom: 150px;
+  @media (max-width: $breakpoint992) {
+    padding: 100px 0;
   }
-  @media (max-width: $breakpoint480) {
-    padding-top: 70px;
-    padding-bottom: 100px;
+  @media (max-width: $breakpoint600) {
+    padding: 75px 0;
   }
   &__info {
     &-box {
       margin-left: 83px;
       max-width: 334px;
-      text-align: center;
       @media (max-width: $breakpoint850) {
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
       }
     }
     &-title {
@@ -46,28 +44,16 @@
     &-btn {
       position: relative;
       @media (max-width: $breakpoint850) {
-        margin-bottom: 100px;
-      }
-      @media (max-width: $breakpoint480) {
         margin-bottom: 50px;
-      }
-      &:before {
-        position: absolute;
-        left: 65px;
-        bottom: -75px;
-        content: '';
-        background: url("../../../img/aboutPage/hiring/btn-title.svg");
-        width: 211px;
-        height: 58px;
-        @media (max-width: $breakpoint480) {
-          display: none;
-        }
       }
     }
     &-img {
       position: absolute;
-      left: 666px;
+      left: 766px;
       top: 150px;
+      @media (max-width: $breakpoint1400) {
+        left: 600px;
+      }
       @media (max-width: $breakpoint1300) {
         max-width: 450px;
       }

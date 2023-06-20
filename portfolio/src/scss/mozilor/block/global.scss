@@ -120,6 +120,11 @@ body {
   }
 }
 
+.menu__item--active {
+    text-decoration: underline;
+    color: $btnColor !important;
+}
+
 @keyframes fade {
   0% {
     opacity: 0;

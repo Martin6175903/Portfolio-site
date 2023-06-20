@@ -4,6 +4,14 @@
   @media (max-width: $breakpoint768) {
     margin-top: 50px;
   }
+  .about-header {
+    @media (max-width: $breakpoint992) {
+      margin-left: 70px;
+    }
+    @media (max-width: $breakpoint850) {
+      margin-left: 0;
+    }
+  }
   & .edit-header {
     @media (max-width: $breakpoint768) {
       padding: 50px 0 100px;
@@ -17,11 +25,23 @@
     text-align: left;
     @media (max-width: $breakpoint768) {
       margin: 0 auto;
-      max-width: none;
+      max-width: none !important;
       width: 80%;
+      text-align: justify;
+    }
+  }
+  &__title {
+    @media (max-width: $breakpoint768) {
+      text-align: center;
     }
   }
   &__img {
+    @media (max-width: $breakpoint992) {
+      right: 70px !important;
+    }
+    @media (max-width: $breakpoint850) {
+      right: 0 !important;
+    }
     @media (max-width: $breakpoint768) {
       position: static !important;
     }

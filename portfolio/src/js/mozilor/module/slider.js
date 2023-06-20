@@ -5,8 +5,8 @@ $('.innovation__items').slick({
     infinite: false,
     slidesToShow: 4,
     slidesToScroll: 4,
-    prevArrow: '<button type="button" class="slick-prev"><img src="../../img/MainPage/innovation/arrow-left-disabled.png" alt="Disabled Arrow"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="../../img/MainPage/innovation/arrow-right.png" alt="Arrow"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="../../img/mozilor/MainPage/innovation/arrow-left-disabled.png" alt="Disabled Arrow"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="../../img/mozilor/MainPage/innovation/arrow-right.png" alt="Arrow"></button>',
     responsive: [
         {
             breakpoint: 1200,
@@ -44,12 +44,12 @@ document.querySelector('.innovation__items').addEventListener('click', function 
     let slickNext = document.querySelector('.slick-next');
 
     if (target.classList.contains('slick-disabled') && target.classList.contains('slick-next')) {
-        target.firstElementChild.src = '../../img/MainPage/innovation/arrow-right-disabled.png';
-        slickPrev.firstElementChild.src = '../../img/MainPage/innovation/arrow-left.png';
+        target.firstElementChild.src = '../../img/mozilor/MainPage/innovation/arrow-right-disabled.png';
+        slickPrev.firstElementChild.src = '../../img/mozilor/MainPage/innovation/arrow-left.png';
     }
 
     if (target.classList.contains('slick-disabled') && target.classList.contains('slick-prev')) {
-        target.firstElementChild.src = '../../img/MainPage/innovation/arrow-left-disabled.png';
-        slickNext.firstElementChild.src = '../../img/MainPage/innovation/arrow-right.png';
+        target.firstElementChild.src = '../../img/mozilor/MainPage/innovation/arrow-left-disabled.png';
+        slickNext.firstElementChild.src = '../../img/mozilor/MainPage/innovation/arrow-right.png';
     }
 })

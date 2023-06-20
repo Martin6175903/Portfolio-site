@@ -8,10 +8,10 @@
     padding-bottom: 125px;
   }
   &__items {
-    margin-top: 97px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 140.5px;
+    margin-bottom: 140px;
     @media (max-width: $breakpoint1100) {
       flex-direction: row;
     }

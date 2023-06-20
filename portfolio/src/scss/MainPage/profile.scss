@@ -14,6 +14,8 @@
   &__box {
     margin-top: 40px;
     &-text {
+      display: block;
+      text-decoration: none;
       padding-left: 50px;
       margin-bottom: 20px;
       font-size: 25px;
@@ -36,17 +38,17 @@
       }
     }
     &-text:nth-child(1):before {
-      background-image: url("../../img/mainPage/Profile/phone.svg");
+      background-image: url("../img/mainPage/Profile/phone.svg");
       width: 25px;
       height: 27px;
     }
     &-text:nth-child(2):before {
-      background-image: url("../../img/mainPage/Profile/email.svg");
+      background-image: url("../img/mainPage/Profile/email.svg");
       width: 29px;
       height: 23px;
     }
     &-text:nth-child(3):before {
-      background-image: url("../../img/mainPage/Profile/place.svg");
+      background-image: url("../img/mainPage/Profile/place.svg");
       width: 20px;
       height: 32px;
       top: 15px;
